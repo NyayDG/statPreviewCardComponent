@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(10, 12, 27);
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+
+.mainPage {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.divOfmainPage {
+    display: flex;
+    width: 70%;
+    margin: auto;
+
+}
+
+.leftDiv {
+    width: 35%;
+    background-color: rgb(28, 25, 56);
+    color: white;
+    padding: 20px 80px 40px 60px;
+    border-radius: 10px 0 0 10px;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.leftDivHeading {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.leftDivParagraph {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.statNum {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.statText {
+    font-size: 12PX;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: 'Inter', sans-serif;
+}
+
+.rightDiv {
+    width: 50%;
+}
+
+.rightDivImage {
+    border-radius: 0 10px 10px 0;
+}
+/* Assuming you have a container element for the image */
+.image-container {
+position: relative;
+display: inline-block; /* or block, depending on your layout */
+}
+
+/* Style the accent overlay */
+.image-accent-overlay {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgb(165, 89, 213);
+border-radius: 0 10px 10px 0;
+opacity: 0.5; /* Adjust the opacity to your preference */
+}
+
+/* Style the image */
+.image-container img {
+display: block;
+width: 100%;
+height: auto;
+}
+
+/* FOOTER */
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    color: white;
+ }
+.attribution a { color: hsl(180, 100%, 61%); }
