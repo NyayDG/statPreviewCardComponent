@@ -15,7 +15,6 @@ body {
     display: flex;
     width: 70%;
     margin: auto;
-
 }
 
 .leftDiv {
@@ -93,3 +92,35 @@ height: auto;
     color: white;
  }
 .attribution a { color: hsl(180, 100%, 61%); }
+
+
+@media (max-width: 767px) {
+    .divOfmainPage {
+        display: flex;
+        width: 70%;
+        margin: auto;
+        flex-direction: column-reverse;
+    }
+    .leftDiv {
+        width: 100%;
+        background-color: rgb(28, 25, 56);
+        color: white;
+        padding: 10px;
+        border-radius: 0;
+    }
+    .gridContainer {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+    .rightDiv {
+        width: 100%;
+    }
+    .rightDivImage {
+        width: 100%;
+        border-radius: 0;
+    }
+    .image-accent-overlay {
+        border-radius: 0;
+    }
+}
